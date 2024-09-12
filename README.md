@@ -31,7 +31,7 @@ subscriber_channel_ID =  #顯示訂閱數的DC頻道ID
 view_channel_ID = #顯示觀看數的DC頻道ID
 lastlive_channel_ID = #顯示距離上次直播的DC頻道ID
 ```
-`VEDIO_PLAYLIST_ID` 可以透過將這串網址放到瀏覽器 https://youtube.googleapis.com/youtube/v3/channels?part=contentDetails&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=[YOUR_API_KEY]  (記得加入你的API_KEY) ，將會得到類似以下JSON:
+`VEDIO_PLAYLIST_ID` 可以透過將這串網址放到瀏覽器 https://youtube.googleapis.com/youtube/v3/channels?part=contentDetails&id=[YouTube頻道ID]&key=[YOUR_API_KEY]  (記得加入你的頻道ID跟API_KEY) ，將會得到類似以下JSON:
 ``` JSON
 {
   "kind": "youtube#channelListResponse",
